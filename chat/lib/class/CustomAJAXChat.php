@@ -155,6 +155,7 @@ class CustomAJAXChat extends AJAXChat {
 					$this->_channels[$key] = $value;
 				}
 			}
+			$this->_channels = array_merge($this->_channels, $this->getCustomChannels());
 		}
 		return $this->_channels;
 	}
@@ -186,6 +187,7 @@ class CustomAJAXChat extends AJAXChat {
 					$this->_allChannels
 				);
 			}
+			$this->_allChannels = array_merge($this->_allChannels, $this->getCustomChannels());
 		}
 		return $this->_allChannels;
 	}

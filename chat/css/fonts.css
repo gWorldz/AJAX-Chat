@@ -13,6 +13,10 @@
 #loginContent a:hover {
 	text-decoration:underline;
 }
+#loginContent #loginRememberUser,
+#loginContent #loginWordPressLinks {
+	font-size:0.8em;
+}
 #loginContent #loginRegisteredUsers {
     font-size:0.8em;
 }

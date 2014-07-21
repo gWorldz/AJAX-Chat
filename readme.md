@@ -1,7 +1,7 @@
-AJAX Chat Standalone
+AJAX Chat WordPress
 ====================
 
-This is the standalone version of Blueimp's AJAX Chat. If you are looking for a version to integrate with your forum, select a different branch.
+This is the WordPress version of Blueimp's AJAX Chat. If you are looking for a version to integrate with your forum, select a different branch.
 
 AJAX stands for "Asynchronous JavaScript and XML".
 The AJAX Chat clients (the user browsers) use JavaScript to query the web server for updates.
@@ -58,7 +58,7 @@ Features
 - Optional support to push updates over a Flash based socket connection (increased performance and responsiveness)
 - Survives connection timeouts
 - Easy integration into existing authentication systems
-- Sample phpBB3, MyBB, PunBB, SMF and vBulletin integrations available
+- Sample phpBB3, MyBB, PunBB, SMF, vBulletin and WordPress integrations available
 - Separation of layout and code
 - Well commented Source Code
 - Developed with Security as integral part - built to prevent Code injections, SQL injections, Cross-site scripting (XSS), Session stealing and other attacks
@@ -74,4 +74,6 @@ For more documentation consult the github wiki: https://github.com/Frug/AJAX-Cha
 
 For support questions use google groups: https://groups.google.com/forum/#!forum/ajax-chat
 
-To report bugs use github issues: https://github.com/Frug/AJAX-Chat
+To report AJAX-Chat bugs use github issues: https://github.com/Frug/AJAX-Chat
+
+To report bugs for the WordPress version: https://github.com/gWorldz/AJAX-Chat
